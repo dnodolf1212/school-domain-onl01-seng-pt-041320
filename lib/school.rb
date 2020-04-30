@@ -23,7 +23,7 @@ class School
   
   def sort
     new_hash = {}
-    @roster.each.sort_by(& :last)
+    @roster.each.sort_by(& :last){|name, grade| name} 
     
     
   end
