@@ -24,7 +24,7 @@ class School
   def sort
     new_hash = {}
     @roster.sort{|name, grade| name}
-    new_hash[grade] ||= name
+    new_hash[grade] = array.name
     
   end
   end
