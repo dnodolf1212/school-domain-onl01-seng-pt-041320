@@ -22,8 +22,7 @@ class School
   end
   
   def sort
-    new_hash = {}
-    @roster.each.sort_by(& :first, :last) 
+    @roster.each.sort_by(& :first :last) 
     
     
   end
