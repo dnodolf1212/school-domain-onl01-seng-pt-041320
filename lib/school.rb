@@ -21,7 +21,7 @@ class School
      @roster.values_at(grade).flatten
   end
   
-  def sort
+  def sort(grade)
     sorted_hash = {}
     @roster.sort.each{ |name, grade| name}
     sorted_hash[grade] = name  
