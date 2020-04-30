@@ -21,8 +21,8 @@ class School
      @roster.values_at(grade).flatten
   end
   
-  def sort(grade)
-    @roster.sort.each{ |name, grade| name}
+  def sort
+    @roster.sort{ |name, grade| name}
   end
   end
 
