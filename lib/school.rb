@@ -26,8 +26,9 @@ class School
     @roster.sort.each{ |name, grade| name}
     sorted_hash[grade] = name  
   end
-end
+  end
 
   
+end
 end
 
