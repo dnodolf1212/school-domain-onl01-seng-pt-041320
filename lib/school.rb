@@ -23,7 +23,7 @@ class School
   
   def sort
     new_hash = {}
-    @roster.sort{|name|}
+    @roster.sort{|name, grade| name}
     new_hash[grade] ||= name
     
   end
