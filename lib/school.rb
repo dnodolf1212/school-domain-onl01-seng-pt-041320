@@ -22,7 +22,6 @@ class School
   end
   
   def sort(grade)
-    sorted_hash = {}
     @roster.sort.each{ |name, grade| name}
   end
   end
